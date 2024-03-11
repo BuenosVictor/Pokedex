@@ -1,0 +1,142 @@
+body.darkMode{
+    color: f5f5f5;
+    background-image:url("../imagens/mylivewallpapers.com-Night-Clouds.gif");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: auto;
+    background-image: url("../imagens/MyLiveWallpapers-com-Nature.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header .logo,
+header .sun {
+    width: 47px;
+}
+
+header .logo:hover,
+header .sun:hover,
+main .pokemonCard:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+
+.changeThemeBTN{
+    background: none;
+    border: none;
+}
+
+main {
+    padding: 25px;
+}
+
+.pokemonList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.pokemonCard {
+    background-color: #ffffff65;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+    padding: 15px;
+}
+
+
+.darkMode .pokemonCard {
+    background-color: #7878be81;
+    color: #000000;
+}
+
+.darkMode .sun{
+    width: 44px;
+}
+
+.pokemonCard {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main .pokemonCard .inf {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.gif {
+    width: 80px;
+    height: 80px;
+}
+
+.types {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.type {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.grass {
+    background-color: #81d84f;
+}
+
+.poison {
+    background-color: #df67ddfb;
+}
+
+.fire {
+    background-color: #ee8130;
+}
+
+.water {
+    background-color: #6390f0;
+}
+
+.insect {
+    background-color: #a6b91a;
+}
+
+p {
+    max-height: 100px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
