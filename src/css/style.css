@@ -1,10 +1,22 @@
 body.darkMode{
-    background-color: #212134;
+    color: f5f5f5;
+    background-image:url("../imagens/mylivewallpapers.com-Night-Clouds.gif");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color:rgb(55, 139, 70)
+    max-width: 1280px;
+    margin: auto;
+    background-image: url("../imagens/MyLiveWallpapers-com-Nature.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header {
