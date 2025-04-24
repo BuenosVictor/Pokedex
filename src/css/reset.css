@@ -1,10 +1,19 @@
-*{
-    margin:0px;
-    padding: 0px;
+* {
     box-sizing: border-box;
-
+    margin: 0;
+    padding: 0;
 }
 
-ul{
-    list-style: none;
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url("../imagens/MyLiveWallpapers-com-Nature.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    transition: all 0.3s ease;
 }
