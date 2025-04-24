@@ -1,6 +1,6 @@
 body.darkMode{
     color: f5f5f5;
-    background-image:url("../imagens/mylivewallpapers.com-Night-Clouds.gif");
+    background-image:url("../imagens/anoitecer.png");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,7 +11,7 @@ body {
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: auto;
-    background-image: url("../imagens/MyLiveWallpapers-com-Nature.gif");
+    background-image: url("../imagens/amanhecer.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: #000000;
@@ -22,21 +22,34 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 header .logo,
 header .sun {
-    width: 47px;
+    width: 40px;
+    transition: transform 0.2s ease-in-out;
 }
 
 header .logo:hover,
-header .sun:hover,
-main .pokemonCard:hover {
+header .sun:hover {
     cursor: pointer;
     transform: scale(1.1);
-    transition: 0.2s ease-in-out;
 }
+
+main {
+    padding-top: 7vh;
+}
+
 
 
 .changeThemeBTN{
@@ -44,9 +57,6 @@ main .pokemonCard:hover {
     border: none;
 }
 
-main {
-    padding: 25px;
-}
 
 .pokemonList {
     display: flex;
@@ -57,7 +67,8 @@ main {
 
 .pokemonCard {
     background-color: #ffffff65;
-    width: 200px;
+    width: 13vw;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,6 +76,7 @@ main {
     border-radius: 20px;
     transition: 0.2s ease-in-out;
     padding: 15px;
+
 }
 
 
@@ -86,16 +98,17 @@ main {
 main .pokemonCard .inf {
     padding: 8px;
     display: flex;
-    justify-content: space-between;
     border: 1px solid #000000;
     border-radius: 10px;
     text-transform: uppercase;
-    font-size: 17px;
+    font-weight: 900;
+    place-content: center;
+
 }
 
 .gif {
-    width: 80px;
-    height: 80px;
+    width: 4vw;
+    height: 4vw;
 }
 
 .types {
